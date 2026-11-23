@@ -4,11 +4,13 @@
 
 **Build an AI agent in six runnable parts, adding one idea at a time.** Each part is the code behind an episode of my [@stok.eed](https://www.instagram.com/stok.eed) series, so you can watch the 60-second version and then read every line.
 
+<img src="assets/demo.svg" alt="npm run demo: the agent loop fixes a failing test; the SDK layer retries and blocks rm -rf" width="100%">
+
 No framework, no dependencies, no API key needed. Node 18+.
 
 ## ▶ Try it live, no install
 
-- **In your browser:** [Open in StackBlitz](https://stackblitz.com/github/MountainBridge/agent-from-zero?startScript=demo) runs `npm run demo` in a few seconds.
+- **In your browser:** [Open in StackBlitz](https://stackblitz.com/github/MountainBridge/agent-from-zero?startScript=demo) runs `npm run demo` in a few seconds. It is a command-line project, so the output appears in the **terminal at the bottom**; the preview pane stays blank.
 - **On GitHub:** [Codespaces](https://codespaces.new/MountainBridge/agent-from-zero) gives you a full terminal: run `npm run demo` or `npm test`.
 - **Proof it runs:** every push runs all tests and the demo. See the [latest run log](https://github.com/MountainBridge/agent-from-zero/actions/workflows/ci.yml).
 
