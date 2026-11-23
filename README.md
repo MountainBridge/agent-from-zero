@@ -6,6 +6,14 @@
 
 No framework, no dependencies, no API key needed. Node 18+.
 
+## ▶ Try it live, no install
+
+- **In your browser:** [Open in StackBlitz](https://stackblitz.com/github/MountainBridge/agent-from-zero?startScript=demo) runs `npm run demo` in a few seconds.
+- **On GitHub:** [Codespaces](https://codespaces.new/MountainBridge/agent-from-zero) gives you a full terminal: run `npm run demo` or `npm test`.
+- **Proof it runs:** every push runs all tests and the demo. See the [latest run log](https://github.com/MountainBridge/agent-from-zero/actions/workflows/ci.yml).
+
+📱 Watch the series on Instagram: [@stok.eed](https://www.instagram.com/stok.eed)
+
 ```bash
 npm test        # 18 tests across all six parts
 npm run demo    # runs every part in order
