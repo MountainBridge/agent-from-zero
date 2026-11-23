@@ -1,0 +1,13 @@
+{
+  "name": "agent-from-zero",
+  "version": "1.0.0",
+  "description": "Build an AI agent from zero in six runnable parts: model, tool, agent loop, MCP, skills, SDK.",
+  "private": true,
+  "scripts": {
+    "test": "node --test",
+    "demo": "node part-1-model/model.js --mock && node part-2-tool/tool.js --mock && node part-3-agent/agent.js --mock && node part-4-mcp/client.js && node part-5-skills/agent.js && node part-6-sdk/demo.js"
+  },
+  "engines": { "node": ">=18" },
+  "author": "Nidhi Verma",
+  "license": "MIT"
+}
